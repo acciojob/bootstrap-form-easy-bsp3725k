@@ -8,6 +8,57 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="internform">
+		<form action="/submit" method="post">
+			<h2 id="heading">Internship Form</h2>
+			<div class="main">
+				<div class="firstname">
+				<label for="first-name-input">First Name</label>
+				<br>
+			    <input type="text" id="first-name-input" required>
+			</div>
+			<div class="lastname">
+				<label for="last-name-input">Last Name</label>
+				<br>
+			    <input type="text" id="last-name-input" required>
+			</div>
+	          <div class="email">
+				  <label for="email-input">Email</label>
+				  <br>
+				  <input type="email" id="email-input" required>
+			  </div>
+			</div>
+			<br>
+			<div class="ndrow">
+				<div class="college">
+					<label for="college-input">College</label>
+					<br>
+					<input type="text" id="college-input" required>
+				</div>
+				<div class="year">
+					<label for="graduation-year-input">Graduation Year</label>
+					<br>
+					<select id="graduation-year-input" name="years" required>
+						<option value="Choose...">Choose...</option>
+						<option value="2020">2020</option>
+						<option value="2021">2021</option>
+						<option value="2022">2022</option>
+						<option value="2023">2023</option>
+					</select>
+				</div>
+				<div class="roll">
+					<label for="roll-no-input">Roll No.</label>
+					<br>
+					<input type="text" id="roll-no-input" required>
+				</div>
+			</div>
+			<br>
+			<input type="checkbox" id="conditions-checkbox">
+			<label for="conditions-checkbox">Agree to terms and conditiond</label>
+			<br><br>
+			<button class="butt">Submit form</button>
+		</form>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
